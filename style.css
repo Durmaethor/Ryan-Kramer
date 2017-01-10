@@ -1,0 +1,493 @@
+
+
+/* ===============================================================
+
+				MAIN CSS 
+ 
+=============================================================== */
+
+/* =================================
+	Base Styles 
+================================= */
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main-footer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	font-family: 'Megrim', cursive;
+	font-weight: 700;
+}
+
+.SM-Nav {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Soc {
+	padding: 10px 0;
+}
+
+.t-border {
+	width: 100%;
+	border-top: 2px solid orange
+}
+
+.link-1 {
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 2.5rem;
+}
+
+.link-2 {
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 1.5rem;
+}
+
+.link-3, 
+.link-4,
+.link-5 {
+	font-family: 'Megrim', cursive;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+.wrap {
+	width: 90%;
+	margin: auto;
+	flex-grow: 1;
+}
+
+
+/* =================================
+	Home Styles 
+================================= */
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	flex-grow: 1;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: auto;
+}
+
+.banner {
+	color: black;
+	text-align: center;
+	padding: 25px 0;
+	margin: 25px 0;
+}
+
+.logo {
+	width: 125px;
+}
+
+.FB-Logo {
+	width: 25px;
+}
+
+.L-Logo {
+	width: 30px;
+}
+
+.G-Logo {
+	width: 27.5px;
+}
+
+.name {
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	font-family: 'Megrim', cursive;
+}
+
+.link {
+	list-style: none;
+	align-self: auto;
+}
+
+.developer {
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 1.5rem;
+}
+
+.designer {
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+}
+
+
+/* =================================
+	Developer & Designer Styles 
+================================= */
+
+.main-nav {
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.nav {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.col {
+	flex-grow: 1;
+	line-height: 1.5;
+}
+
+
+  
+
+/* =================================
+	Developer Styles 
+================================= */
+
+.d-h1 {
+	text-align: center;
+	margin-top: 55px;
+	font-size: 1rem;
+	font-family: 'Miriam Libre', sans-serif;
+  }
+  
+.d-h2 {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 1rem;
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+
+/* =================================
+	Designer Styles 
+================================= */
+
+.de-h1 {
+	text-align: center;
+	margin-top: 55px;
+	font-size: 1.5rem;
+	font-family: 'Bilbo Swash Caps', cursive;
+  }
+
+
+.img-links {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	margin: 50px auto 5px;
+	padding-top: 50px;
+  } 
+  
+.IMG-link {
+	flex-grow: 1;
+	width: 250px;
+	text-align: center;
+	}
+  
+.IMG-glow {
+	max-width: 90%;
+	margin: 0 auto;
+	margin: 25px 0;
+	border: 3px ridge orange;
+}
+
+.IMG-glow:hover {
+	box-shadow: 0 0 50px rgba(246,155,63, 1.5);
+	text-decoration: none;
+	max-width: 90%;
+	margin: 0 auto;
+	margin: 25px 0;
+	border: none;
+}
+
+.primary {
+	text-align: left;
+	width: 100%;
+	margin: 25px auto 5px;
+	padding-top: 25px;
+}
+
+
+/* =================================
+	Portfolio Styles 
+================================= */
+
+.P-h1 {
+	text-align: center;
+	margin-top: 55px;
+	font-size: 1.5rem;
+	font-family:  'Megrim', cursive;
+  }
+
+
+/* =================================
+	MSHB Styles 
+================================= */
+
+.secondary {
+	margin: 25px auto;
+	width: 100%;
+  }
+  
+ .MSHB-content2 {
+	margin: 25px auto 5px;
+	width: 100%;
+ }
+
+.MSHB-img {
+	max-width: 100%;
+	margin: 25px auto;
+	border: 3px ridge orange;
+  }
+	
+.content-container {
+	width: 100%;
+	text-align: left;
+}
+
+
+
+/* =================================
+	LINK STYLES
+================================= */
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:active {
+	color: #000;
+}
+
+
+/* ===============================================================
+
+				MEDIA QUERIES 
+ 
+=============================================================== */
+
+
+/* =================================
+	600PX +
+================================= */
+
+@media (min-width: 600px) {
+	
+.logo {
+	width: 250px;
+  }	
+	
+}
+
+
+/* =================================
+	768PX +
+================================= */
+
+@media (min-width: 768px) {
+	
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	max-width: 1350px;
+  }
+  
+.main-footer {
+	font-family: 'Megrim', cursive;
+}
+
+.SM-Nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Soc {
+	padding: 25px;
+	margin-top: 50px;
+}
+
+.FB-Logo {
+	width: 50px;
+}
+
+.L-Logo {
+	width: 60px;
+}
+
+.G-Logo {
+	width: 55px;
+}
+
+.C-text {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.logo {
+	width: 300px;
+  }
+  
+a.glow,
+a.glow:hover, 
+a.glow:focus {
+	text-decoration: none;
+	color: white;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+  }
+
+a.glow:hover, 
+a.glow:focus  {
+	color: white;
+	text-shadow: -1px 1px 8px orange, 1px -1px 8px orange;
+  }
+  
+.main-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	background-color: white;
+  }
+  
+.primary,
+.secondary {
+	text-align: center;
+	margin: 50px auto 5px;
+	padding-top: 50px;
+	width: 90%;
+  }
+  
+.d-h1,
+.de-h1,
+.P-h1 {
+	margin-top: 160px;
+  }
+  
+.d-h1 {
+	font-size: 2rem;
+}
+
+.de-h1 {
+	font-size: 3rem;
+}
+
+.P-h1 {
+	font-size: 3rem;
+}
+
+.img-links {
+	width: 90%;
+}
+
+.name {
+	font-size: 2rem;
+}
+
+.MSHB-img {
+	margin: 50px auto 5px;
+	width: 90%
+}
+
+ .MSHB-content2 {
+	margin: 50px auto 5px;
+	width: 90%;
+ }
+ 
+/* =================================
+	1050PX +
+================================= */
+
+@Media (min-width: 1050px) {
+
+.designer {
+	font-size: 3.5rem;
+  }	
+
+.developer {
+	font-size: 2rem;
+  }
+  
+.name {
+	font-size: 2.5rem;
+}
+  
+}
+
+/* =================================
+	1600PX +
+================================= */
+
+@Media (min-width: 1600px) {
+
+.designer {
+	font-size: 5rem;
+  }	
+
+.developer {
+	font-size: 3.5rem;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
