@@ -62,19 +62,13 @@ img {
 }
 
 
-.wrap {
-	width: 90%;
-	margin: auto;
-	flex-grow: 1;
-}
-
 
 /* =================================
 	Home Styles 
 ================================= */
 
 .container {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	flex-grow: 1;
 	text-align: center;
@@ -362,7 +356,7 @@ a.glow,
 a.glow:hover, 
 a.glow:focus {
 	text-decoration: none;
-	color: white;
+	color: #000;
 	text-shadow: none;
 	-webkit-transition: 500ms linear 0s;
 	-moz-transition: 500ms linear 0s;
